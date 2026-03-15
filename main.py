@@ -9,7 +9,7 @@ import json
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="Peblo AI API", description="Mini Content Ingestion + Adaptive Quiz Engine")
+app = FastAPI(title="QuizForge API", description="AI Content Ingestion + Adaptive Quiz Engine")
 
 @app.get("/")
 def health_check():

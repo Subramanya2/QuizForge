@@ -1,4 +1,4 @@
-# Peblo AI Backend Engine
+# QuizForge — AI Content Ingestion & Adaptive Quiz Engine
 
 A backend system that ingests educational PDF content, generates AI-powered quiz questions using Google Gemini, and serves them through an adaptive quiz API.
 
