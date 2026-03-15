@@ -3,5 +3,5 @@ __pycache__/
 *.pyc
 peblo.db
 .env
-dummy_educational.pdf
 *.log
+*.pdf
