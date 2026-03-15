@@ -5,7 +5,7 @@ from typing import List, Optional
 from cachetools import TTLCache
 import json
 
-from database import engine, Base, get_db, SessionLocal
+from database import engine, Base, get_db
 import models, schemas
 
 # ── DB setup ───────────────────────────────────────────────────────────────
