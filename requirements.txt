@@ -6,3 +6,4 @@ python-dotenv
 google-genai
 python-multipart
 pydantic<2.0.0
+cachetools

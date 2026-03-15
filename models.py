@@ -43,6 +43,8 @@ class Question(Base):
     options = Column(Text, nullable=True) # JSON dumped list for MCQ
     answer = Column(String)
     difficulty = Column(Enum(DifficultyLevel))
+    quality_score = Column(Integer, nullable=True)     # LLM self-evaluated quality (1-10)
+    embedding = Column(Text, nullable=True)            # JSON-dumped float list for similarity checks
 
     chunk = relationship("Chunk", back_populates="questions")
 
