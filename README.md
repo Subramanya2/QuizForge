@@ -171,11 +171,4 @@ The system adjusts difficulty per student, per topic:
 
 The recommended difficulty for the next question is returned in every `/submit-answer` response.
 
----
 
-## Sample Test Files
-
-The following PDFs can be ingested (provided by Peblo):
-- `peblo_pdf_grade1_math_numbers.pdf` — Grade 1 Math
-- `peblo_pdf_grade3_science_plants_animals.pdf` — Grade 3 Science
-- `peblo_pdf_grade4_english_grammar.pdf` — Grade 4 English Grammar
