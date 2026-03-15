@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, UploadFile, File, Form, HTTPException, BackgroundTasks
+from fastapi import FastAPI, Depends, UploadFile, File, Form, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import List, Optional
@@ -6,11 +6,6 @@ from typing import List, Optional
 from database import engine, Base, get_db
 import models, schemas
 import json
-
-# We will create these services next
-# from services.pdf_service import ingest_pdf
-# from services.llm_service import generate_questions_for_document
-# from services.quiz_service import process_student_answer
 
 Base.metadata.create_all(bind=engine)
 
